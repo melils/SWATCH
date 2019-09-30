@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1080px;
+    margin-right:auto;
+    margin-left:auto;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section-services, .section-work, .section-team, .section-news, .section-clients, .section-god-idea, .section-footer{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+/*HEADER*/
+.section-header{
+    background-color: white;
+}
+.logo-header{
+    width: 100px;
+}
+.lists-header{
+    padding-left: 0px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+}
+.nav-items-header{
+    font-weight: 600;
+    color:  #585656;
+    font-size: 14px;
+    text-decoration: none;
+}
+.nav-items-header:hover{
+    color: #cf4436;
+}
+
+/**/
+.banner{
+    width: 100%;
+}
+
+/*SERVICES*/
+.tittle__services{
+    text-align: center;
+    color: black;
+}
+
+.text__services{
+    text-align:center;
+}
+.cards__services{
+    display:flex;
+}
+.cards__box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards__image{
+    border-radius: 100%;
+    height:170px;
+    width: 170px;
+}
+.cards__text{
+    font-size: 14px;
+    text-align: center;   
+}
+
+/*work*/
+.section-work{
+    background-color: rgb(26,188,156);
+}
+
+.work__tittle{
+    text-align: center;
+    color: #00FFBF;
+}
+
+.work__text{
+    margin-bottom: 40px;
+    text-align: center;
+    color: white;
+}
+.box__image{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.work__image{
+    max-width: 100%;  
+}
+
+/*TEAM*/
+.section-team{
+    background-color: rgb(236,135,131);
+    
+}
+
+.team__tittle{
+    text-align: center;
+    color: white;
+}
+
+ .team__text{
+    margin-bottom: 40px;
+     text-align: center;
+     color: white; 
+    
+ }
+
+ .team__box{
+     display: flex;
+
+ }
+ .team__description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.team__image{
+    width: 30%;
+ }
+.team__name{
+    margin-bottom: 0px;
+    font-size: 15px;
+    color: #9c514f;
+}
+.team__little-name{
+    font-size: 12px;
+    color: #9c514f;
+}
+ .team__text-description{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+.team__box-iconos{
+    display: flex;
+}
+.team__redes{
+    margin-right: 6px;
+    height:40px;
+    width: 40px;
+    border-radius: 100%;
+}
+
+/* NEWS*/
+.section-news{
+    background-color:  rgb(236,193,50);
+}
+
+.news__tittle{
+    margin-bottom: 40px;
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+.news__box-cards{
+    display: flex;
+}
+.news__cards-violet{
+    position: relative;
+    height:400px;
+    background-color: #cb8fe3;
+}
+.news__image{
+    width: 100%;
+}
+.cards-violet__camera{
+    background-color: #cb8fe3;
+    padding: 10px 10px 10px 10px;
+    border-radius: 100%;
+    margin-top: -18px;
+    margin-left: 150px;
+    position: absolute;
+    width: 11%;
+}
+.cards-violet__tittle{
+    color: white;
+    text-align: center;
+}
+
+
+.cards-violet__text{
+    color: white;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.news__cards-red{
+    height: 350px;
+    background-color:#e74c3c;
+    
+}
+.news__image-red{
+    height: 170px;
+    width: 100%;
+}
+.cards-red__borde1{
+    margin-top: 0px;
+    border: 5px solid #3180b6;
+}
+.cards-red__tittle{
+    color: white;
+    text-align: center;
+}
+
+.cards-red__text{
+    color: white;
+    font-size: 15px;
+    padding: 0px 10px 0px 10px;
+}
+.cards-red__borde2{
+    margin-top: 0px;
+    border: 10px solid #cf4436;
+}
+.news__cards-blue{
+    position: relative;
+    background-color: #31415c;
+    height: 195px;
+}
+
+.cards-blue__borde-horizontal{
+    position: absolute;
+    width: 4px;
+    height: 130px;
+    margin-top: 35px;
+    margin-left: 10px;
+    border: 2px solid #4f5f80;
+}
+.cards-blue__text{
+    color: white;
+    font-size: 15px;
+    padding: 30px 10px 0px 30px;
+    margin-top: 0px;
+}
+.cards-blue__little-text{
+    font-size: 12px;
+    padding-left: 30px;
+    color: white;
+}
+.cards-blue__borde{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 20px solid #4f5f80;
+}
+
+
+/*CLIENTES*/
+.section-clients{
+    background-color: rgb(203, 143, 227);
+}
+
+.clients__tiitle{
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+ }
+ .clients__box-image{
+    justify-content: space-between;
+    display: flex;
+ }
+.clients__image{
+    width: 160px;
+}
+
+
+/*got idea*/
+.section-god-idea{
+    background-color: rgb(49,65,92); 
+}
+
+ .god-idea__tittle{
+    text-align: center;
+    color: #9ca9c3;
+ }
+ .god-idea__text{
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+ }
+ .box-buttom{
+    display: flex;
+    justify-content: center;
+ }
+.god-idea__buttom{
+    background-color: #F78181;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+ }
+
+ /*footer*/
+
+ .section-footer{
+    background-color: rgb(52,73,94);
+ }
+
+ .footer__tittle{
+    padding-top: 20px;
+    margin-top: 0px;
+    color: #89939d;
+ }
+ .footer__box-content{
+    justify-content: space-between;
+    display: flex;
+ }
+ .footer__list{
+    color: white;
+    margin-top: 0px;
+    padding-left: 0px;
+    list-style: none;
+ }
+ .footer__list-text{
+    margin-bottom: 10px;
+ }
+ .footer__box-icon{
+     display: flex;
+ }
+ .footer__icon{
+    margin-right: 10px;
+    border-radius: 100%;
+    height:50px;
+    width: 50px;
+ }
